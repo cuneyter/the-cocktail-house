@@ -62,8 +62,8 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (10.2.4.0)
-      execjs
+    autoprefixer-rails (10.2.5.1)
+      execjs (> 0)
     aws_cf_signer (0.1.3)
     bcrypt (3.1.16)
     bindex (0.8.1)
@@ -90,7 +90,7 @@ GEM
       dotenv (= 2.7.6)
       railties (>= 3.2)
     erubi (1.10.0)
-    execjs (2.7.0)
+    execjs (2.8.1)
     ffi (1.14.2)
     font-awesome-sass (5.12.0)
       sassc (>= 1.11)
@@ -217,9 +217,9 @@ GEM
       sprockets-rails
       tilt
     semantic_range (2.3.1)
-    simple_form (5.0.3)
-      actionpack (>= 5.0)
-      activemodel (>= 5.0)
+    simple_form (5.1.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -259,7 +259,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails
+  autoprefixer-rails (~> 10.2, >= 10.2.5.1)
   bootsnap (>= 1.4.4)
   byebug
   cloudinary (~> 1.16.0)
@@ -277,7 +277,7 @@ DEPENDENCIES
   rails-controller-testing
   rspec-rails (~> 5.0, >= 5.0.1)
   sass-rails (>= 6)
-  simple_form
+  simple_form (~> 5.1)
   spring
   turbolinks (~> 5)
   tzinfo-data
