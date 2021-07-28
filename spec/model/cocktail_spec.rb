@@ -15,4 +15,10 @@ RSpec.describe Cocktail, :type => :model do
   it { is_expected.to belong_to(:user) }
 
   it { is_expected.to have_many(:doses).dependent(:destroy) }
+
+  it { is_expected.to have_many(:ingredients).through(:doses) }
+
+  it { is_expected.to have_many(:reviews).dependent(:destroy) }
+
+
 end
