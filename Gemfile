@@ -46,6 +46,9 @@ group :development, :test do
   # Rspec for testing
   gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
 
+  #
+  gem 'rails-controller-testing'
+
   # Shoulda Matchers provides RSpec- and Minitest-compatible one-liners to test common Rails functionality that, if written by hand, would be much longer, more complex, and error-prone.
   gem 'shoulda-matchers', '~> 5.0'
 
@@ -69,8 +72,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
-gem 'rails-controller-testing', group: [ :test ]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
