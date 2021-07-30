@@ -49,6 +49,9 @@ group :development, :test do
   # Capybara is an integration testing tool for rack based web applications. It simulates how a user would interact with a website
   gem 'capybara', '~> 3.35'
 
+  #Run Selenium tests more easily with install and updates for all supported webdrivers.
+  gem 'webdrivers', '~> 4.6'
+
   # This gem brings back assigns to your controller tests as well as assert_template to both controller and integration tests.
   gem 'rails-controller-testing'
 
