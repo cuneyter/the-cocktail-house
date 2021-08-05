@@ -39,6 +39,9 @@ gem 'font-awesome-sass', '~> 5.12.0'
 
 gem 'simple_form', '~> 5.1'
 
+# Great Ruby debugging companion: pretty print Ruby objects to visualize their structure. Supports custom object formatting via plugins
+gem 'awesome_print', require: false
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

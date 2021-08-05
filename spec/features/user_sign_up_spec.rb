@@ -27,6 +27,6 @@ RSpec.feature "User signs up", type: :feature do
 
     click_on "Sign up"
 
-    expect(page).to have_content('My Account')
+    expect(page).to have_content('My Cocktails')
   end
 end
