@@ -58,9 +58,6 @@ group :development, :test do
   # Shoulda Matchers provides RSpec- and Minitest-compatible one-liners to test common Rails functionality that, if written by hand, would be much longer, more complex, and error-prone.
   gem 'shoulda-matchers', '~> 5.0'
 
-  # Add mini_race to resolve Uncaught exception: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes in Ruby Mine IDE.
-  gem 'mini_racer', '~> 0.4.0'
-
   # dotenv gem for security
   gem 'dotenv-rails'
 
